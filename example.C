@@ -36,10 +36,8 @@ void example()
  h->hasEvtTree = true;
  h->hasAkVs3CaloJetTree = true;
 
-
- int nEntries = h->GetEntries();
 //looping over events
-for(int i=0; i<nEntries; i++)
+for(int i=0; i<10; i++)
   {
     h->GetEntry(i);
 
